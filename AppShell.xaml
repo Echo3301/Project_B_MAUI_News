@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiProjectBNews.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiProjectBNews"
+    xmlns:views="clr-namespace:MauiProjectBNews.Views"
+    Shell.FlyoutBehavior="Flyout"
+    Title="MauiProjectBNews">
+
+    <ShellContent
+        Title="About"
+        ContentTemplate="{DataTemplate views:AboutPage}"
+        Route="about" />
+
+    <ShellContent
+        Title="Maui hello"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="mauihello" />
+
+</Shell>

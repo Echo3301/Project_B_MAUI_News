@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiProjectBNews.Views.AboutPage"
+             Title="About News">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Project Part B" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="News in MAUI" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="This part of the project is about making a simple MAUI Application of the console news service made in project part A2." 
+               FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="Select a city and give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="Have fun!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Created by Angelica Bergström"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>
